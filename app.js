@@ -29,7 +29,7 @@ db.once("open", function() {
 
   app.use("/", Routes);
 
-  const PORT = 5000;
+  const PORT = 8080;
 
   app.listen(PORT, () => {
     console.log(`server running on port ${PORT}`);
