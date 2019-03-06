@@ -7,7 +7,7 @@ import crypto from "crypto"
 import Utilisateur from "./utilisateurs/model"
 import { verifyJWT_MW } from "../middleWare/auth.js"
 import bodyParser from "body-parser"
-import allowCrossDomain from "../middleware/node-express-cors-middleware";
+import allowCrossDomain from "../middleware/node-express-cors-middleware.js";
 
 /*
  * Entry point of the API
